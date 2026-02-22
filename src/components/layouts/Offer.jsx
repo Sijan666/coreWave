@@ -49,7 +49,7 @@ const Offer = () => {
                         </div>
                         <div className="right">
                             <h3 className='text-[45px] font-semibold text-[#1B1B1B]'>We offer a variety of services such as</h3>
-                            <p className='pt-7.5 text-[#7B7B7B] text-base'>At our company, we pride ourselves on offering a variety of services to meet the diverse needs of our clients. Whether you're looking for marketing assistance, website design, or IT support, we've got you covered</p>
+                            <p className='py-7.5 text-[#7B7B7B] text-base'>At our company, we pride ourselves on offering a variety of services to meet the diverse needs of our clients. Whether you're looking for marketing assistance, website design, or IT support, we've got you covered</p>
                             <div className="btn">
                                 <Button btnText={'All Services'} className={'px-[25px] py-[14.5px]'}/>
                             </div>
