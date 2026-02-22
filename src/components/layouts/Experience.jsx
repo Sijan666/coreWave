@@ -11,8 +11,8 @@ const Experience = () => {
             <Container>
                 <div className="flex justify-between">
                     <div className="left lg:w-[550px]">
-                        <h3 className='pb-7.5 text-[#1B1B1B] font-semibold text-[45px] leading-[26px]'>Experience the power of Corewave</h3>
-                        <p className='text-base text-[#7B7B7B] pb-[45px] leading-[54px]'>Are you ready to take your business to the next level? Look no further than Corewave. Our innovative technology and expert team can help you unlock your business's full potential. By harnessing the power of Corewave, you can streamline your operations, improve efficiency</p>
+                        <h3 className='pb-7.5 text-[#1B1B1B] font-semibold text-[45px]  leading-[54px]'>Experience the power of Corewave</h3>
+                        <p className='text-base text-[#7B7B7B] pb-[45px] leading-[26px]'>Are you ready to take your business to the next level? Look no further than Corewave. Our innovative technology and expert team can help you unlock your business's full potential. By harnessing the power of Corewave, you can streamline your operations, improve efficiency</p>
                         {/* btn */}
                         <div className="btn">
                             <Button btnText={'Register'} className={'px-[25px] py-[14.5px]'}/>
