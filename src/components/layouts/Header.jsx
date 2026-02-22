@@ -17,13 +17,13 @@ const Header = () => {
                         </div>
                         {/* navbar */}
                         <nav>
-                            <ul className="flex gap-x-5">
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Portfolio</li>
-                                <li>Service</li>
-                                <li>Blog</li>
-                                <li>Testimonial</li>
+                            <ul className="flex gap-x-[45px]">
+                                <li className="text-[#1B1B1B] text-base font-medium hover:text-[#06C279] duration-300 cursor-pointer">Home</li>
+                                <li className="text-[#1B1B1B] text-base font-medium hover:text-[#06C279] duration-300 cursor-pointer">About</li>
+                                <li className="text-[#1B1B1B] text-base font-medium hover:text-[#06C279] duration-300 cursor-pointer">Portfolio</li>
+                                <li className="text-[#1B1B1B] text-base font-medium hover:text-[#06C279] duration-300 cursor-pointer">Service</li>
+                                <li className="text-[#1B1B1B] text-base font-medium hover:text-[#06C279] duration-300 cursor-pointer">Blog</li>
+                                <li className="text-[#1B1B1B] text-base font-medium hover:text-[#06C279] duration-300 cursor-pointer">Testimonial</li>
                             </ul>
                         </nav>
                     </div>
