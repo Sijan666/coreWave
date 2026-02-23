@@ -1,4 +1,5 @@
 
+import Achievements from "../layouts/Achievements"
 import Banner from "../layouts/Banner"
 import Experience from "../layouts/Experience"
 import Offer from "../layouts/Offer"
@@ -12,6 +13,7 @@ const Home = () => {
         <Experience/>
         <Offer/>
         <Project/>
+        <Achievements/>
         </>
     )
 }
