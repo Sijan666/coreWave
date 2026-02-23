@@ -2,12 +2,11 @@ import React from 'react';
 import Container from '../Container';
 import { TbDeviceDesktopCode } from 'react-icons/tb';
 import Button from '../Button';
-// আপনার যদি অন্য আইকন লাগে, react-icons থেকে ইম্পোর্ট করে নেবেন
+
 
 const Offer = () => {
     return (
         <section className="py-20">
-            {/* Background Shape */}
             <div className="bg-[#EEFFF9] rounded-tl-[350px] rounded-br-[350px] py-28">
                 <Container>
                     <div className="flex justify-between gap-x-[113px] items-center">
