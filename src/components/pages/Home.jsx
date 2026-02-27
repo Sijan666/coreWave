@@ -9,14 +9,14 @@ import Review from "../layouts/Review"
 
 const Home = () => {
     return (
-        <>
+        <div className="font-Lato">
         <Banner/>
         <Experience/>
         <Offer/>
         <Project/>
         <Achievements/>
         <Review/>
-        </>
+        </div>
     )
 }
 

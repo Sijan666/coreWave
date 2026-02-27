@@ -15,6 +15,9 @@ const Review = () => {
                             <Reviewcard className={''}
                                 client={r1}
                                 reviewTitle={'Excellent Team!'}
+                                desc={'The customer service team at this company was very responsive and helpful when I had questions about their products.'}
+                                reviewerName={'Farhan Rio'}
+                                sellerType={'Happy Seller'}
                             />
                         </div>
                     </div>
