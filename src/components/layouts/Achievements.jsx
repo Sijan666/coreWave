@@ -4,7 +4,7 @@ import Button from '../Button'
 import { HiOutlineEmojiHappy } from 'react-icons/hi'
 
 const Achievements = () => {
-  return (
+    return (
         <section className="py-20">
             <div className="bg-[#EEFFF9] rounded-tl-[350px] rounded-br-[350px] py-28">
                 <Container>
@@ -56,7 +56,7 @@ const Achievements = () => {
                 </Container>
             </div>
         </section>
-  )
+    )
 }
 
 export default Achievements
