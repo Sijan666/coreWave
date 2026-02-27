@@ -14,7 +14,7 @@ const Reviewcard = ({className , client , reviewTitle , desc , reviewerName , se
                 <h4 className='text-[#1B1B1B] text-[18px] font-semibold'>{reviewerName}</h4>
                 <h5 className='text-[#7B7B7B] text-[14px]'>{sellerType}</h5>
             </div>
-            <div className="py-3 px-3 bg-[#343434] group-hover:bg-[#06C279] duration-300 text-white rounded-full absolute top-20 left-30">
+            <div className="py-3 px-3 bg-[#343434] group-hover:bg-[#06C279] duration-300 text-white rounded-full absolute top-15 left-30">
                 <BiSolidQuoteAltLeft size={25} className='' />
             </div>
         </div>
