@@ -11,15 +11,16 @@ const Footer = () => {
       <footer>
         <div className="pt-25 pb-[47px]">
           <Container>
-            <div className="flex justify-between items-start">
+            <div className="flex justify-between flex-col gap-y-8 lg:flex-row items-center lg:items-start">
+              {/* logo part */}
               <div className="logo">
-                <Images imgSrc={footerLogo}/>
-                <div className="pt-6.5">
+                <Images imgSrc={footerLogo} className={'mx-auto lg:mx-0'}/>
+                <div className="pt-6.5 text-center lg:text-left">
                   <p className="text-[#7B7B7B] text-[14px]">mukimsdesign@gmail.com</p>
                   <p className="text-[#7B7B7B] text-[14px]">+88 01767630044</p>
                 </div>
                 <div className="pt-5">
-                  <div className="flex gap-x-2">
+                  <div className="flex gap-x-2 justify-center lg:justify-normal">
                     <div className="p-2 rounded-full bg-[#06C279]">
                       <FaFacebookF className="text-white" />
                     </div>
@@ -35,6 +36,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+              {/* service part */}
               <div className="service">
                 <h4 className="text-[#1B1B1B] text-[20px] font-semibold">Services</h4>
                 <ul className="pt-6 flex flex-col gap-y-1">
@@ -45,6 +47,7 @@ const Footer = () => {
                   <li className="text-[14px] text-[#7B7B7B] cursor-pointer">Digital Marketing</li>
                 </ul>
               </div>
+              {/* help part */}
               <div className="help">
                 <h4 className="text-[#1B1B1B] text-[20px] font-semibold">Help</h4>
                 <ul className="pt-6 flex flex-col gap-y-1">
@@ -54,7 +57,8 @@ const Footer = () => {
                   <li className="text-[14px] text-[#7B7B7B] cursor-pointer">Terms & Conditions</li>
                 </ul>
               </div>
-              <div className="conatact">
+              {/* contact part */}
+              <div className="contact">
                 <h4 className="text-[#1B1B1B] text-[20px] font-semibold">Contact Us</h4>
                 <div className="pt-6">
                   <input type="text" placeholder="Enter your mail" className="py-[13px] px-[15px] rounded-[5px] border-2 border-[#DDDDDD] lg:w-[337px]"/>
