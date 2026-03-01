@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
               </div>
               {/* service part */}
-              <div className="service">
+              <div className="service text-center lg:text-left">
                 <h4 className="text-[#1B1B1B] text-[20px] font-semibold">Services</h4>
                 <ul className="pt-6 flex flex-col gap-y-1">
                   <li className="text-[14px] text-[#7B7B7B] cursor-pointer">Web Design</li>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </ul>
               </div>
               {/* help part */}
-              <div className="help">
+              <div className="help text-center lg:text-left">
                 <h4 className="text-[#1B1B1B] text-[20px] font-semibold">Help</h4>
                 <ul className="pt-6 flex flex-col gap-y-1">
                   <li className="text-[14px] text-[#7B7B7B] cursor-pointer">Account</li>
@@ -58,7 +58,7 @@ const Footer = () => {
                 </ul>
               </div>
               {/* contact part */}
-              <div className="contact">
+              <div className="contact text-center lg:text-left">
                 <h4 className="text-[#1B1B1B] text-[20px] font-semibold">Contact Us</h4>
                 <div className="pt-6">
                   <input type="text" placeholder="Enter your mail" className="py-[13px] px-[15px] rounded-[5px] border-2 border-[#DDDDDD] lg:w-[337px]"/>
