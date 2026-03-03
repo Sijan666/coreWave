@@ -9,12 +9,12 @@ import Button from '../Button'
 const Project = () => {
     return (
         <section>
-            <Container>
+            <Container className={'px-3 lg:px-0'}>
                 <div className="text-center">
-                    <h3 className='text-[#1B1B1B] font-semibold text-[45px]'>Our Latest Project</h3>
+                    <h3 className='text-[#1B1B1B] font-semibold text-[30px] lg:text-[45px]'>Our Latest Project</h3>
                 </div>
                 {/* filter btn */}
-                <div className="py-8 flex justify-center border-b border-[#7B7B7B] gap-x-[73px] lg:w-[892px] mx-auto">
+                <div className="py-8 flex flex-col lg:flex-row gap-y-10 justify-center border-b border-[#7B7B7B] lg:gap-x-[73px] lg:w-[892px] mx-auto">
                     <button className='text-[#7b7b7b] text-base font-medium cursor-pointer hover:text-[#06C279]'>Mobile App</button>
                     <button className='text-[#7b7b7b] text-base font-medium cursor-pointer hover:text-[#06C279]'>Web Development</button>
                     <button className='text-[#7b7b7b] text-base font-medium cursor-pointer hover:text-[#06C279]'>UI/UX Design</button>
@@ -22,7 +22,7 @@ const Project = () => {
                     <button className='text-[#7b7b7b] text-base font-medium cursor-pointer hover:text-[#06C279]'>Motion Graphic</button>
                 </div>
                 <div className="pt-[53px]">
-                    <div className="flex justify-between">
+                    <div className="flex flex-col lg:flex-row lg:justify-between gap-y-10">
                         {/* product one */}
                         <div className="productOne">
                             <div className="img ">
@@ -56,7 +56,7 @@ const Project = () => {
                     </div>
                 </div>
                 {/* btn */}
-                <div className="btn text-center pt-8">
+                <div className="btn text-center pt-12 lg:pt-8">
                     <Button btnText={'View All Projects'} className={'px-[25px] py-[14.5px]'}/>
                 </div>
             </Container>
