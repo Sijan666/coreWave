@@ -11,7 +11,7 @@ const Footer = () => {
       <footer>
         <div className="pt-25 pb-[47px]">
           <Container>
-            <div className="flex justify-between flex-col gap-y-8 lg:flex-row items-center lg:items-start">
+            <div className="flex justify-between flex-col gap-y-8 lg:flex-row items-center lg:items-start px-3 lg:px-0">
               {/* logo part */}
               <div className="logo">
                 <Images imgSrc={footerLogo} className={'mx-auto lg:mx-0'}/>
