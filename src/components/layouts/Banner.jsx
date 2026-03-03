@@ -7,7 +7,7 @@ import bannerImg from '../../assets/bannerImg.png'
 const Banner = () => {
     return (
         <>
-        <div className="bg-[#EEFFF9] pt-[190px]">
+        <div className="bg-[#EEFFF9] pt-15 lg:pt-[190px]">
             <Container className={'px-3 lg:px-0'}>
                 <div className="flex flex-col lg:flex-row items-center gap-y-10 justify-between">
                     <div className="left lg:w-[526px] text-center lg:text-left">
