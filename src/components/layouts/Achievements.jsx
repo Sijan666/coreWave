@@ -6,18 +6,20 @@ import { HiOutlineEmojiHappy } from 'react-icons/hi'
 const Achievements = () => {
     return (
         <section className="py-20">
-            <div className="bg-[#EEFFF9] rounded-tl-[350px] rounded-br-[350px] py-28">
-                <Container>
-                    <div className="flex justify-between gap-x-[113px] items-center">
-                        <div className="right">
-                            <h3 className='text-[45px] font-semibold text-[#1B1B1B] lg:w-[404px] text-left'>Take your business to new heights with our top services.</h3>
+            <div className="bg-[#EEFFF9] lg:rounded-tl-[350px] lg:rounded-br-[350px] py-28">
+                <Container className={'px-3 lg:px-0'}>
+                    <div className="flex flex-col lg:flex-row lg:justify-between gap-y-20 lg:gap-x-[113px] items-center">
+                        {/* left side */}
+                        <div className="left text-center lg:text-left ">
+                            <h3 className='lg:text-[45px] text-[30px] font-semibold text-[#1B1B1B] lg:w-[404px] text-center lg:text-left'>Take your business to new heights with our top services.</h3>
                             <p className='py-7.5 text-[#7B7B7B] text-base'>At our company, we pride ourselves on offering a variety of services to meet the diverse needs of our clients. Whether you're looking for marketing assistance, website design, or IT support, we've got you covered</p>
                             <div className="btn">
                                 <Button btnText={'Get In Touch Now'} className={'px-[25px] py-[14.5px]'}/>
                             </div>
                         </div>
-                        <div className="left w-[664px]">
-                            <div className="flex gap-x-8">
+                        {/* right side */}
+                        <div className="right lg:w-[664px]">
+                            <div className="flex flex-col lg:flex-row gap-x-8 gap-y-8">
                                 <div className="flex flex-col gap-y-8 ">
                                     <div className="py-10 px-[72px] rounded-[10px] shadow-new2 bg-white hover:bg-[#06C279] group duration-300 text-center">
                                         <HiOutlineEmojiHappy  size={90} className='text-[#06C279] group-hover:text-white duration-300 mx-auto'/>
@@ -34,7 +36,7 @@ const Achievements = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex flex-col gap-y-8 mt-35">
+                                <div className="flex flex-col gap-y-8 lg:mt-35">
                                     <div className="py-10 px-[72px] rounded-[10px] shadow-new2 bg-white hover:bg-[#06C279] group duration-300 text-center">
                                         <HiOutlineEmojiHappy  size={90} className='text-[#06C279] group-hover:text-white duration-300 mx-auto'/>
                                         <div className="">
